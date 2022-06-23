@@ -3,7 +3,7 @@
 // Declare your function here
 function getRandomInt()
 {
-	var randomNumber = Math.random((* 10)+ 1);
+	var generateRandom = Math.random()(* , 10);
 	return randomNumber;
 }
 console.log(getRandomInt());
