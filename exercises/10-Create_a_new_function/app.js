@@ -1,9 +1,5 @@
 /* This exercise is almost identical to 15-Random numbers - consider merging them here and using another concept for 15? */
+function generateRandom(a){
 
-// Declare your function here
-function getRandomInt()
-{
-	var generateRandom = Math.random()(* , 10);
-	return randomNumber;
+	return Math.floor(Math.random() * 10);
 }
-console.log(getRandomInt());
